@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: '#F6F4F3',
+        secondary: '#353126',
       },
       fontFamily: {
         righteous: ['Righteous', 'cursive'],
