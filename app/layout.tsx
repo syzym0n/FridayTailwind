@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html className="w-dvw h-dvh overflow-hidden" lang="en">
       <body className="bg-primary text-secondary font-righteous">
         {children}
       </body>
