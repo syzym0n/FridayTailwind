@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "title": "Dave Matthews Band",
+      "color": "#22162B",
+      "pic": "/BeneRohlmann/art1.png"
+    },
+    {
+      "id": 2,
+      "title": "Dave Matthews Band",
+      "color": "#E5E7E6",
+      "pic": "/BeneRohlmann/art2.png"
+    },
+    {
+      "id": 3,
+      "title": "Widespread Panic",
+      "color": "#CCF5AC",
+      "pic": "/BeneRohlmann/art3.png"
+    },
+    {
+      "id": 4,
+      "title": "Dave Matthews Band",
+      "color": "#F5FBEF",
+      "pic": "/BeneRohlmann/art4.png"
+    },
+    {
+      "id": 5,
+      "title": "Cincinatti",
+      "color": "#05299E",
+      "pic": "/BeneRohlmann/art5.png"
+    },
+    {
+      "id": 6,
+      "title": "Oysterhead",
+      "color": "#DCEDFF",
+      "pic": "/BeneRohlmann/art6.png"
+    },
+    {
+      "id": 7,
+      "title": "Phish",
+      "color": "#12130F",
+      "pic": "/BeneRohlmann/art7.png"
+    }
+  ]
+  
