@@ -6,8 +6,7 @@ import MainHeader from "@/components/beneRohlmann/mainHeader";
 
 export default function Landing() {
   return (
-    <div className='px-12 py-16 relative'>
-      <MainHeader />
+    <div className='relative'>
       <Image src={landingPic} alt='An illustration of Bene Rohlmann' 
       className='-rotate-45 w-2/4 max-w-lg
       absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'/>

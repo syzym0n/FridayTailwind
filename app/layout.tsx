@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   description: "Each Friday, a new next and tailwind page",
 };
 
+import MainHeader from "@/components/beneRohlmann/mainHeader";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -13,7 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html className="w-dvw h-dvh overflow-hidden" lang="en">
-      <body className="bg-primary text-secondary font-righteous">
+      <body className="bg-primary text-secondary font-righteous px-12 py-16">
+      <MainHeader />
         {children}
       </body>
     </html>
