@@ -11,7 +11,7 @@ export default function MainHeader() {
     const path = usePathname();
 
     return (
-        <header className='relative z-10 flex justify-between'>
+        <header className='relative z-10 flex justify-between items-center w-full max-w-[1500px]'>
             <Link className='text-2xl' href="/">BENE ROHLMANN</Link>
             <nav>
                 <ul>

@@ -16,7 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="w-dvw h-dvh relative bg-primary text-secondary font-righteous px-12 py-16 overflow-hidden">
+      <body className="w-dvw h-dvh relative bg-primary text-secondary font-righteous px-12 py-16 overflow-hidden
+      flex flex-col items-center gap-10">
       <MainHeader />
       <TextBG />
         {children}
