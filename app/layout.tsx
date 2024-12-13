@@ -7,6 +7,7 @@ export const metadata: Metadata = {
 };
 
 import MainHeader from "@/components/beneRohlmann/mainHeader";
+import TextBG from "@/components/beneRohlmann/textBG";
 
 export default function RootLayout({
   children,
@@ -14,9 +15,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="w-dvw h-dvh overflow-hidden" lang="en">
-      <body className="bg-primary text-secondary font-righteous px-12 py-16">
+    <html lang="en">
+      <body className="w-dvw h-dvh relative bg-primary text-secondary font-righteous px-12 py-16 overflow-hidden">
       <MainHeader />
+      <TextBG />
         {children}
       </body>
     </html>
